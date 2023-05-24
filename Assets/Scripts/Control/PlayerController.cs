@@ -2,6 +2,7 @@ using Attributes;
 using Movement;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 namespace Control
 {
@@ -20,6 +21,7 @@ namespace Control
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1f;
         [SerializeField] float raycastRadius = 1f;
+        
         
         private void Awake() {
             health = GetComponent<Health>();

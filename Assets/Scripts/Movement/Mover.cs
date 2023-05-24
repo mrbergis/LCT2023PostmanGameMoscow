@@ -53,6 +53,12 @@ namespace Movement
         
         public void Cancel()
         {
+            _navMeshAgent.isStopped = true;
+            //_navMeshAgent.enabled = false;
+        }
+        
+        public void Finish()
+        {
             //_navMeshAgent.isStopped = true;
             _navMeshAgent.enabled = false;
         }
