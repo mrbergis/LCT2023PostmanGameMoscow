@@ -378,6 +378,10 @@ PrefabInstance:
       propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 5708381137814154847}
+    - target: {fileID: 6567389481188456860, guid: 1a74317ea961946d5a8f15948d71d3c4, type: 3}
+      propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Load2DLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a74317ea961946d5a8f15948d71d3c4, type: 3}
 --- !u!4 &18666802222185189 stripped

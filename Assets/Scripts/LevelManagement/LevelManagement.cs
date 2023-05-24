@@ -13,7 +13,7 @@ namespace LevelManagement
             LoadSceneWithIndex(SceneManager.GetActiveScene().buildIndex);
         }
 
-        public void LoadStartLevel()
+        public void Load2DLevel()
         {
             LoadSceneWithIndex(level2DSceneBuildIndex);
         }

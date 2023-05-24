@@ -65,6 +65,7 @@
      <Compile Include="Assets/Scripts/SaveSystem/ISaveData.cs" />
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystem.cs" />
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystemManager.cs" />
+     <Compile Include="Assets/Scripts/UI/InfoButtonLogic.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -143,7 +144,7 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/Scripts/UI" />
      <Folder Include="Assets/Models/Transport/Scooter/Electro_S.fbm" />
-     <Folder Include="Assets/Scenes/TverskayaStreetScene" />
+     <Folder Include="Assets/Scenes/HramStreetScene" />
      <Folder Include="Assets/Materials/Textures/Builds" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/textures/mr_sep" />
      <Folder Include="Assets/Prefabs/Enemy" />

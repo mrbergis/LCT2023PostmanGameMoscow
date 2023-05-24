@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c46331bb8f36e1d448cf7f155286b9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Menu
+  sceneName: HramStreetScene
 --- !u!135 &554612884
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -16,6 +16,6 @@ public class GameManager : MonoBehaviour
             item.SaveData();
         }
             
-        SaveSystem.SaveSystem.SaveGameData(sceneManagement.GetNextLevelIndex());
+        //SaveSystem.SaveSystem.SaveGameData(sceneManagement.GetNextLevelIndex());
     }
 }

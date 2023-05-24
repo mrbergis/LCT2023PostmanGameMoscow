@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: fdb0dec2bf1860d428c159e1cff922bf
+  - enabled: 1
+    path: Assets/Scenes/Tuttorial3DScene.unity
+    guid: 438958ddc2ed644708409342df67df62
+  - enabled: 1
+    path: Assets/Scenes/HramStreetScene.unity
+    guid: e7d4a9b75f0cc48278eb1177661161b2
   m_configObjects: {}
