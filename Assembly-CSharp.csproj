@@ -114,6 +114,7 @@
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
      <Folder Include="Assets/Scripts/Attributes" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <Folder Include="Assets/Scenes/SampleScene" />
      <Folder Include="Assets/Scripts" />
      <Folder Include="Assets/Prefabs" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_Sprinter/Textures" />
@@ -132,6 +133,7 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/Scripts/UI" />
      <Folder Include="Assets/Models/Transport/Scooter/Electro_S.fbm" />
+     <Folder Include="Assets/Scenes/TverskayaStreetScene" />
      <Folder Include="Assets/Materials/Textures/Builds" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/textures/mr_sep" />
      <Folder Include="Assets/Prefabs/Enemy" />
@@ -841,6 +843,12 @@
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

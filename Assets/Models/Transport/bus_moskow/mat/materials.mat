@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials version="2.5.0.1">
+	<material name="mat_462970643_0" parent="mesh_base">
+		<texture name="albedo">D:\Project\Scenes\test\models\bus_moskow_4bfe739eba945689\tex_0.dds</texture>
+		<parameter name="material_mask">0xff7fffff</parameter>
+		<parameter name="albedo_color">1 1 1 0</parameter>
+	</material>
+	<material name="mat_459420643_1" parent="mesh_base">
+		<blend src="src_alpha" dest="one_minus_src_alpha"/>
+		<options transparent="2" two_sided="1"/>
+		<state name="emission">1</state>
+		<texture name="albedo">D:\Project\Scenes\test\models\bus_moskow_4bfe739eba945689\tex_1.dds</texture>
+		<texture name="emission">D:\Project\Scenes\test\models/bus_logo_moskow_l.dds</texture>
+		<parameter name="material_mask">0xff7fffff</parameter>
+		<parameter name="emission_scale">2</parameter>
+	</material>
+	<material name="mat_458610643_2" parent="mesh_base">
+		<parameter name="material_mask">0xff7fffff</parameter>
+		<parameter name="albedo_color">0.0196078438 0.0196078438 0.0784313753 0</parameter>
+		<parameter name="transparent_pow">0.400000036</parameter>
+	</material>
+	<material name="mat_458610643_3" parent="mesh_base">
+		<parameter name="material_mask">0xff7fffff</parameter>
+		<parameter name="albedo_color">0.605459988 0.605459988 0.605459988 1</parameter>
+	</material>
+</materials>
