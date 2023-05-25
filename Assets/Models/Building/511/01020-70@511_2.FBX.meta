@@ -3,7 +3,17 @@ guid: c69296f3c825e4b9c9d25322a2ad744c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LubianskyProezd_23
+    second: {fileID: 2800000, guid: ad7b7f4381e09444595dc7b5bcb56f93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LubianskyProezd_23_alpha
+    second: {fileID: 2800000, guid: 8cbc27fbafb62482ab028e647829cbda, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
