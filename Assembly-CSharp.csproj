@@ -66,6 +66,7 @@
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystem.cs" />
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystemManager.cs" />
      <Compile Include="Assets/Scripts/UI/InfoButtonLogic.cs" />
+     <Compile Include="Assets/Scripts/Enemies/DroneEnemyLogic.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -79,10 +80,12 @@
      <Folder Include="Assets/Models/Transport/MedCars_v1" />
      <Folder Include="Assets/Animations" />
      <Folder Include="Assets/Animators" />
+     <Folder Include="Assets/Models/Drone_Costum/Teturizer" />
      <Folder Include="Assets/Models/Transport/vityaz/vityaz_hvost.fbm" />
      <Folder Include="Assets/Prefabs/Core" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <Folder Include="Assets/Models/Transport/Electrobus_Charger_solo/EB_Charger_s.fbm" />
+     <Folder Include="Assets/Textures/CityStreetAsphaltGenericCracked002" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_R_Sprinter/FBX" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2" />
      <Folder Include="Assets/Prefabs/Player" />
@@ -107,6 +110,7 @@
      <Folder Include="Assets/Textures/Cursors" />
      <Folder Include="Assets/Scripts/Enemies" />
      <Folder Include="Assets/Models" />
+     <Folder Include="Assets/Models/Drone_Costum/Material" />
      <Folder Include="Assets/Materials/Textures/refs" />
      <Folder Include="Assets/Materials/Materials" />
      <Folder Include="Assets/Models/Transport/vityaz/vityaz_vagon.fbm" />
@@ -134,6 +138,7 @@
      <Folder Include="Assets/TextMesh Pro/Fonts" />
      <Folder Include="Assets/Models/Transport/bus_moskow" />
      <Folder Include="Assets/Scripts/SaveSystem" />
+     <Folder Include="Assets/Models/Drone_Costum" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/Scripts/Movement" />
      <Folder Include="Assets/Scripts/Control" />
@@ -146,6 +151,7 @@
      <Folder Include="Assets/Models/Transport/Scooter/Electro_S.fbm" />
      <Folder Include="Assets/Scenes/HramStreetScene" />
      <Folder Include="Assets/Materials/Textures/Builds" />
+     <Folder Include="Assets/Textures/CityStreetRoadAsphaltTwoLaneWorn001" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/textures/mr_sep" />
      <Folder Include="Assets/Prefabs/Enemy" />
      <Folder Include="Assets/Models/Transport/Scooter" />

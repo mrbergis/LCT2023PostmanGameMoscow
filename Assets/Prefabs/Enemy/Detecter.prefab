@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255242831836195990}
   m_Layer: 0
-  m_Name: triangle
+  m_Name: Detecter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 021fd143251494a84bb41c30ecc1c0b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -142,3 +142,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93036efd5ed0d4997a118f5d127d6ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kill: 0
+  respawnPosition: {fileID: 0}
