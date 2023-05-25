@@ -67,6 +67,7 @@
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystemManager.cs" />
      <Compile Include="Assets/Scripts/UI/InfoButtonLogic.cs" />
      <Compile Include="Assets/Scripts/Enemies/DroneEnemyLogic.cs" />
+     <Compile Include="Assets/Scripts/UI/InGameMenuUI.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
