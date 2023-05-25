@@ -41,33 +41,33 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/Core/IAction.cs" />
+     <Compile Include="Assets/Scripts/Enemies/PatrolPath.cs" />
      <Compile Include="Assets/Scripts/UI/VolumeManager.cs" />
+     <Compile Include="Assets/Scripts/Movement/Mover.cs" />
+     <Compile Include="Assets/Scripts/UI/InGameMenuUI.cs" />
      <Compile Include="Assets/Scripts/UI/MainMenu.cs" />
+     <Compile Include="Assets/Scripts/UI/InfoButtonLogic.cs" />
+     <Compile Include="Assets/Scripts/Control/CursorType.cs" />
+     <Compile Include="Assets/Scripts/SaveSystem/SaveSystemManager.cs" />
+     <Compile Include="Assets/Scripts/Enemies/DroneEnemyLogic.cs" />
      <Compile Include="Assets/Scripts/TextureChanger.cs" />
+     <Compile Include="Assets/Scripts/Control/PlayerController.cs" />
+     <Compile Include="Assets/Scripts/LevelManagement/LevelManagement.cs" />
+     <Compile Include="Assets/Scripts/LevelManagement/ExitLevelTransition.cs" />
+     <Compile Include="Assets/Scripts/Attributes/Health.cs" />
+     <Compile Include="Assets/Scripts/Enemies/EnemyCameraLogic.cs" />
      <Compile Include="Assets/Scripts/Waypoint.cs" />
      <Compile Include="Assets/Scripts/SceneLoader.cs" />
+     <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scripts/UI/OptionMenu.cs" />
      <Compile Include="Assets/Scripts/PathMovement.cs" />
-     <Compile Include="Assets/Scripts/UI/SliderSettings.cs" />
-     <Compile Include="Assets/Scripts/UI/Move.cs" />
-     <Compile Include="Assets/Scripts/UI/Parallax.cs" />
-     <Compile Include="Assets/Scripts/Enemies/EnemyCameraLogic.cs" />
-     <Compile Include="Assets/Scripts/Attributes/Health.cs" />
-     <Compile Include="Assets/Scripts/Movement/Mover.cs" />
-     <Compile Include="Assets/Scripts/Control/PlayerController.cs" />
-     <Compile Include="Assets/Scripts/Core/IAction.cs" />
-     <Compile Include="Assets/Scripts/Enemies/CameraPatrolPath.cs" />
-     <Compile Include="Assets/Scripts/Enemies/PatrolPath.cs" />
-     <Compile Include="Assets/Scripts/Control/CursorType.cs" />
-     <Compile Include="Assets/Scripts/GameManager.cs" />
-     <Compile Include="Assets/Scripts/LevelManagement/ExitLevelTransition.cs" />
-     <Compile Include="Assets/Scripts/LevelManagement/LevelManagement.cs" />
-     <Compile Include="Assets/Scripts/SaveSystem/ISaveData.cs" />
      <Compile Include="Assets/Scripts/SaveSystem/SaveSystem.cs" />
-     <Compile Include="Assets/Scripts/SaveSystem/SaveSystemManager.cs" />
-     <Compile Include="Assets/Scripts/UI/InfoButtonLogic.cs" />
-     <Compile Include="Assets/Scripts/Enemies/DroneEnemyLogic.cs" />
-     <Compile Include="Assets/Scripts/UI/InGameMenuUI.cs" />
+     <Compile Include="Assets/Scripts/UI/SliderSettings.cs" />
+     <Compile Include="Assets/Scripts/SaveSystem/ISaveData.cs" />
+     <Compile Include="Assets/Scripts/UI/Move.cs" />
+     <Compile Include="Assets/Scripts/Enemies/CameraPatrolPath.cs" />
+     <Compile Include="Assets/Scripts/UI/Parallax.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -101,9 +101,11 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/Models/Transport/Electrobus_Charger_solo/EB_Charger_m_s.fbm" />
+     <Folder Include="Assets/Scenes/RoadStreetScene" />
      <None Include="Assets/Models/Transport/vityaz/readme.txt" />
      <Folder Include="Assets/Prefabs/UI" />
      <Folder Include="Assets/Prefabs/Transport" />
+     <Folder Include="Assets/Models/Building/511" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets/Models/Camera" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_R_Sprinter/Textures" />
@@ -143,12 +145,14 @@
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/Scripts/Movement" />
      <Folder Include="Assets/Scripts/Control" />
+     <Folder Include="Assets/Textures/UI" />
      <Folder Include="Assets/Materials/Textures" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_Sprinter/FBX" />
      <Folder Include="Assets/Scripts/LevelManagement" />
      <Folder Include="Assets/Scripts/Core" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/Scripts/UI" />
+     <Folder Include="Assets/Models/Building/RoadStreet" />
      <Folder Include="Assets/Models/Transport/Scooter/Electro_S.fbm" />
      <Folder Include="Assets/Scenes/HramStreetScene" />
      <Folder Include="Assets/Materials/Textures/Builds" />
@@ -796,8 +800,14 @@
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -861,12 +871,6 @@
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>/Volumes/Developer/Unity/project/Moscow/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

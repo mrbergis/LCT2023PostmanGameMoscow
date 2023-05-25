@@ -353,6 +353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Detecter
       objectReference: {fileID: 0}
+    - target: {fileID: 1495363876569289490, guid: 8270fcfca18e04d56a19609ed3ea1007, type: 3}
+      propertyPath: kill
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4336627738060536418, guid: 8270fcfca18e04d56a19609ed3ea1007, type: 3}
       propertyPath: m_Size.x
       value: 1.7320508

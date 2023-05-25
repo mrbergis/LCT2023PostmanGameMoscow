@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.09297347
       objectReference: {fileID: 0}
+    - target: {fileID: 7280645655711612589, guid: 4624d5c63e91d411da60855e84296508, type: 3}
+      propertyPath: kill
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8232680324983472425, guid: 4624d5c63e91d411da60855e84296508, type: 3}
       propertyPath: m_LocalScale.x
       value: 29
