@@ -1671,6 +1671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InfoButtonCanvasWorld
       objectReference: {fileID: 0}
+    - target: {fileID: 2175040694040589826, guid: c7c10d4adcce942ae83a68edcb73753f, type: 3}
+      propertyPath: currentSceneBuildIndex
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3410063115580460519, guid: c7c10d4adcce942ae83a68edcb73753f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4692,6 +4696,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Load2DLevelWin
+      objectReference: {fileID: 0}
     - target: {fileID: 2689552683452185406, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -4736,6 +4744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core
       objectReference: {fileID: 0}
+    - target: {fileID: 5708381137814154847, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: dataScene
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aa626fe9345b4b9caec93dd6e3bcb1f, type: 2}
     - target: {fileID: 7094321839496654488, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_RootOrder
       value: 2

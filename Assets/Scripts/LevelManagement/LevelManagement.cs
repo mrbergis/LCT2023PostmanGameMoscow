@@ -5,6 +5,8 @@ namespace LevelManagement
 {
     public class LevelManagement : MonoBehaviour
     {
+        [SerializeField] private StreetData dataScene;
+        
         [SerializeField]
         private int level2DSceneBuildIndex, menuSceneBuildIndex, winSceneBuildIndex;
         //winSceneBuildIndex - последняя сцена которую мы собираемся показать
@@ -13,6 +15,12 @@ namespace LevelManagement
             LoadSceneWithIndex(SceneManager.GetActiveScene().buildIndex);
         }
 
+        public void Load2DLevelWin()
+        {
+            dataScene.streetActive = false;
+            LoadSceneWithIndex(level2DSceneBuildIndex);
+        }
+        
         public void Load2DLevel()
         {
             LoadSceneWithIndex(level2DSceneBuildIndex);
@@ -31,6 +39,11 @@ namespace LevelManagement
         public void LoadWinScene()
         {
             LoadSceneWithIndex(winSceneBuildIndex);
+        }
+        
+        public void LoadSaveScene()
+        {
+            LoadSceneWithIndex(SaveSystem.SaveSystem.LoadLevelIndex());
         }
 
         public void LoadSceneWithIndex(int index)

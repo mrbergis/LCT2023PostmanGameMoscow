@@ -57,8 +57,8 @@
      <Compile Include="Assets/Scripts/LevelManagement/ExitLevelTransition.cs" />
      <Compile Include="Assets/Scripts/Attributes/Health.cs" />
      <Compile Include="Assets/Scripts/Enemies/EnemyCameraLogic.cs" />
-     <Compile Include="Assets/Scripts/Waypoint.cs" />
-     <Compile Include="Assets/Scripts/SceneLoader.cs" />
+     <Compile Include="Assets/Scripts/Point/Waypoint.cs" />
+     <Compile Include="Assets/Scripts/Point/StreetLogic.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scripts/UI/OptionMenu.cs" />
      <Compile Include="Assets/Scripts/PathMovement.cs" />
@@ -68,6 +68,9 @@
      <Compile Include="Assets/Scripts/UI/Move.cs" />
      <Compile Include="Assets/Scripts/Enemies/CameraPatrolPath.cs" />
      <Compile Include="Assets/Scripts/UI/Parallax.cs" />
+     <Compile Include="Assets/Scripts/Data/WayData.cs" />
+     <Compile Include="Assets/Scripts/Data/PlayerDataSO.cs" />
+     <Compile Include="Assets/Scripts/Data/StreetData.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -76,6 +79,7 @@
      <Folder Include="Assets/Models/Camera/tex" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_Sprinter" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
+     <Folder Include="Assets/Scripts/Point" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_R_Sprinter/Renders" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_Sprinter/FBX/MedCar_Sprinter_LOD0.fbm" />
      <Folder Include="Assets/Models/Transport/MedCars_v1" />
@@ -102,6 +106,7 @@
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/Models/Transport/Electrobus_Charger_solo/EB_Charger_m_s.fbm" />
      <Folder Include="Assets/Scenes/RoadStreetScene" />
+     <Folder Include="Assets/Scripts/Data" />
      <None Include="Assets/Models/Transport/vityaz/readme.txt" />
      <Folder Include="Assets/Prefabs/UI" />
      <Folder Include="Assets/Prefabs/Transport" />
@@ -120,6 +125,7 @@
      <Folder Include="Assets/Models/Transport/vityaz/vityaz_vagon.fbm" />
      <Folder Include="Assets/Models/Building" />
      <Folder Include="Assets/Sounds/New_Composition_1" />
+     <Folder Include="Assets/Data" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_R_Sprinter/FBX/MedCar_R_Sprinter_LOD0.fbm" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <Folder Include="Assets/Models/Transport/bus_moskow/bus_moskow.fbm" />
@@ -175,6 +181,7 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <Folder Include="Assets/Materials/Materials/Builds" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_R_Sprinter" />
+     <Folder Include="Assets/Textures/GroundCobblestone001" />
      <Folder Include="Assets/Textures/ConcreteWall001" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/proj" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />

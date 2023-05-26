@@ -1049,11 +1049,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: LoadSceneWithIndex
+      value: LoadSaveScene
       objectReference: {fileID: 0}
     - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument

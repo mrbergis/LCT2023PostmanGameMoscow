@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HramStreetScene.unity
     guid: e7d4a9b75f0cc48278eb1177661161b2
+  - enabled: 1
+    path: Assets/Scenes/KremlevskStreetScene.unity
+    guid: 07fe8739d8fbe4beca4c726b6b35e60b
+  - enabled: 1
+    path: Assets/Scenes/RoadStreetScene.unity
+    guid: 0b89250d039d04c5aac6830c309a286b
+  - enabled: 1
+    path: Assets/Scenes/TverskayaStreetScene.unity
+    guid: 409a8f9906dbf4bd0b9c4cd7bcf7110c
   m_configObjects: {}

@@ -1,10 +1,11 @@
+using System;
 using UnityEngine;
 
 public class Waypoint : MonoBehaviour
 {
     public PathMovement pathMovement; 
-    public Transform[] waypoints; 
-
+    public Transform[] waypoints;
+    
     private void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))

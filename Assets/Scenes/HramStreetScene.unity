@@ -261,6 +261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Load2DLevelWin
+      objectReference: {fileID: 0}
     - target: {fileID: 2689552683452185406, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -305,29 +309,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core
       objectReference: {fileID: 0}
+    - target: {fileID: 5708381137814154847, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: dataScene
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a7ffabb22ec7462caf99534ac38023e, type: 2}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5043373
+      value: -2.8611317
       objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.620934
+      value: 18.962662
       objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.5579185
+      value: -7.4922867
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5043373
+      value: -2.8611317
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.620934
+      value: 18.962662
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.5579185
+      value: -7.4922867
       objectReference: {fileID: 0}
     - target: {fileID: 7094321839496654488, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_RootOrder
@@ -743,6 +751,30 @@ PrefabInstance:
     - target: {fileID: 2224921330653907477, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
       propertyPath: m_Name
       value: EnemyDrone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Size.x
+      value: 1.7062653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Size.y
+      value: 0.57142407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Size.z
+      value: 43.93312
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Center.x
+      value: 0.012892653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Center.y
+      value: -0.23412919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288792388609414454, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
+      propertyPath: m_Center.z
+      value: 2.0261056
       objectReference: {fileID: 0}
     - target: {fileID: 5506302565120642911, guid: 7b482f5796e8642688f812edbeff3f81, type: 3}
       propertyPath: MoveSpeed
@@ -1553,6 +1585,10 @@ PrefabInstance:
     - target: {fileID: 12685480875051190, guid: c7c10d4adcce942ae83a68edcb73753f, type: 3}
       propertyPath: m_Name
       value: InfoButtonCanvasWorld
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175040694040589826, guid: c7c10d4adcce942ae83a68edcb73753f, type: 3}
+      propertyPath: currentSceneBuildIndex
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3410063115580460519, guid: c7c10d4adcce942ae83a68edcb73753f, type: 3}
       propertyPath: m_RootOrder
