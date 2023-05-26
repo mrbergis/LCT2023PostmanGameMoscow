@@ -28,6 +28,7 @@ namespace LevelManagement
         
         public void Load2DLevel()
         {
+            SaveSystem.SaveSystem.ResetSavePosition();
             LoadSceneWithIndex(level2DSceneBuildIndex);
         }
 
