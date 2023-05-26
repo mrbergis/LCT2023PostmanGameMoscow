@@ -315,6 +315,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u0421\u0442\u0430\u0434\u0438\u043E\u043D"
       objectReference: {fileID: 0}
+    - target: {fileID: 1820058829662396472, guid: 58143fa9b99e847ec86ca59a60fdcd5d, type: 3}
+      propertyPath: m_Radius
+      value: 2.39
+      objectReference: {fileID: 0}
     - target: {fileID: 1820058829662396476, guid: 58143fa9b99e847ec86ca59a60fdcd5d, type: 3}
       propertyPath: pathMovement
       value: 
@@ -4187,7 +4191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7543018881452901361, guid: 6410a4972f29c4d84baebbe2fb31d0ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: -17.79
       objectReference: {fileID: 0}
     - target: {fileID: 7543018881452901361, guid: 6410a4972f29c4d84baebbe2fb31d0ee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4389,6 +4393,10 @@ PrefabInstance:
     - target: {fileID: 1820058829591566777, guid: 58143fa9b99e847ec86ca59a60fdcd5d, type: 3}
       propertyPath: m_enableAutoSizing
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820058829662396472, guid: 58143fa9b99e847ec86ca59a60fdcd5d, type: 3}
+      propertyPath: m_Radius
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 1820058829662396476, guid: 58143fa9b99e847ec86ca59a60fdcd5d, type: 3}
       propertyPath: pathMovement

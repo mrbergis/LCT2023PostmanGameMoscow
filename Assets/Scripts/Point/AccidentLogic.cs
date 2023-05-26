@@ -15,9 +15,10 @@ public class AccidentLogic : MonoBehaviour
             if (Random.Range(0, 100) < 40)
             {
                 canvasAccident.SetActive(true);
+                other.GetComponent<PathMovement>().StopMoving();
+                other.gameObject.transform.position = Vector3.zero;
             }
-            other.GetComponent<PathMovement>().StopMoving();
-            other.gameObject.transform.position = Vector3.zero;
+            
         }
     }
 }
