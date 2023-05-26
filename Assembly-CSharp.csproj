@@ -58,7 +58,7 @@
      <Compile Include="Assets/Scripts/Attributes/Health.cs" />
      <Compile Include="Assets/Scripts/Enemies/EnemyCameraLogic.cs" />
      <Compile Include="Assets/Scripts/Point/Waypoint.cs" />
-     <Compile Include="Assets/Scripts/Point/StreetLogic.cs" />
+     <Compile Include="Assets/Scripts/SceneLoader.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scripts/UI/OptionMenu.cs" />
      <Compile Include="Assets/Scripts/PathMovement.cs" />
@@ -72,6 +72,13 @@
      <Compile Include="Assets/Scripts/Data/PlayerDataSO.cs" />
      <Compile Include="Assets/Scripts/Data/StreetData.cs" />
      <Compile Include="Assets/Scripts/LevelManagement/Fader.cs" />
+     <Compile Include="Assets/Scripts/Point/StreetLogic.cs" />
+     <Compile Include="Assets/Scripts/QuizWindowController.cs" />
+     <Compile Include="Assets/Scripts/RestartButton.cs" />
+     <Compile Include="Assets/Scripts/WinWindowController.cs" />
+     <Compile Include="Assets/Scripts/LooseWindowController.cs" />
+     <Compile Include="Assets/Scripts/Point/AccidentLogic.cs" />
+     <Compile Include="Assets/Scripts/Point/PointMaillLogic.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -131,11 +138,14 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <Folder Include="Assets/Models/Transport/bus_moskow/bus_moskow.fbm" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <Folder Include="Assets/Textures/Accident" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets/Prefabs/2DScene" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <Folder Include="Assets/Textures/Marka/Materials" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets/Textures/Marka" />
      <Folder Include="Assets/Scripts/Attributes" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/Scenes/Tuttorial3DScene" />
@@ -147,6 +157,7 @@
      <Folder Include="Assets/TextMesh Pro/Shaders" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/textures" />
      <Folder Include="Assets/Prefabs/Point" />
+     <Folder Include="Assets/Materials/Marka" />
      <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
      <Folder Include="Assets/TextMesh Pro/Fonts" />
      <Folder Include="Assets/Models/Transport/bus_moskow" />

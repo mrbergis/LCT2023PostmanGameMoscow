@@ -46,7 +46,7 @@ namespace SaveSystem
              // PlayerPrefs.DeleteKey(positionZKey);
              PlayerPrefs.DeleteAll();
          }
-
+         
          public static void ResetSavePosition()
          {
              PlayerPrefs.DeleteKey(positionXKey);
@@ -54,6 +54,7 @@ namespace SaveSystem
              PlayerPrefs.DeleteKey(positionZKey);
          }
 
+         
          public static void SavePosition(PlayerDataSO playerPosition)
          {
              var position = playerPosition.ConvertTransformToArray();

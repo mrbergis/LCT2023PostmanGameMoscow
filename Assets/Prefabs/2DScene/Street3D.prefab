@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582373871259706336}
   - component: {fileID: 582373871259706337}
-  - component: {fileID: 582373871259706342}
+  - component: {fileID: 3153124314489867561}
   m_Layer: 0
   m_Name: Street3D
   m_TagString: Untagged
@@ -47,7 +47,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.5194116
   m_Center: {x: 0.36716604, y: 0, z: 0}
---- !u!114 &582373871259706342
+--- !u!114 &3153124314489867561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 582373871259706343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c46331bb8f36e1d448cf7f155286b9db, type: 3}
+  m_Script: {fileID: 11500000, guid: 948f6d8b34b31444481d873a8c9211b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   streetData: {fileID: 0}

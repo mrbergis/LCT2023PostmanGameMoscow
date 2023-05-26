@@ -10,7 +10,7 @@ public class StreetLogic : MonoBehaviour
     [SerializeField] float fadeOutTime = 1f;
     [SerializeField] float fadeInTime = 2f;
     [SerializeField] float fadeWaitTime = 0.5f;
-    
+
     private void Start()
     {
         gameObject.SetActive(streetData.streetActive);
@@ -22,9 +22,10 @@ public class StreetLogic : MonoBehaviour
         {
             StartCoroutine(Transition());
             //SceneManager.LoadScene(streetData.streetName);
+
         }
     }
-
+    
     private IEnumerator Transition()
     {
         Fader fader = FindObjectOfType<Fader>();
@@ -36,5 +37,5 @@ public class StreetLogic : MonoBehaviour
         yield return new WaitForSeconds(fadeWaitTime);
         fader.FadeIn(fadeInTime);
     }
-        
+
 }
