@@ -71,6 +71,7 @@
      <Compile Include="Assets/Scripts/Data/WayData.cs" />
      <Compile Include="Assets/Scripts/Data/PlayerDataSO.cs" />
      <Compile Include="Assets/Scripts/Data/StreetData.cs" />
+     <Compile Include="Assets/Scripts/LevelManagement/Fader.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/renders" />
@@ -131,6 +132,7 @@
      <Folder Include="Assets/Models/Transport/bus_moskow/bus_moskow.fbm" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets/Prefabs/2DScene" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
@@ -139,6 +141,7 @@
      <Folder Include="Assets/Scenes/Tuttorial3DScene" />
      <Folder Include="Assets/Scripts" />
      <Folder Include="Assets/Prefabs" />
+     <Folder Include="Assets/Data/StreetData" />
      <Folder Include="Assets/Models/Transport/MedCars_v1/MedCar_Sprinter/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />

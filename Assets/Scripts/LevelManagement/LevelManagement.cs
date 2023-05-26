@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,10 @@ namespace LevelManagement
     public class LevelManagement : MonoBehaviour
     {
         [SerializeField] private StreetData dataScene;
+        
+        [SerializeField] float fadeOutTime = 1f;
+        [SerializeField] float fadeInTime = 2f;
+        [SerializeField] float fadeWaitTime = 0.5f;
         
         [SerializeField]
         private int level2DSceneBuildIndex, menuSceneBuildIndex, winSceneBuildIndex;
@@ -48,7 +53,19 @@ namespace LevelManagement
 
         public void LoadSceneWithIndex(int index)
         {
-            SceneManager.LoadScene(index);
+            StartCoroutine(Transition(index));
+        }
+        
+        private IEnumerator Transition(int index)
+        {
+            Fader fader = FindObjectOfType<Fader>();
+        
+            yield return fader.FadeOut(fadeOutTime);
+        
+            yield return SceneManager.LoadSceneAsync(index);
+        
+            yield return new WaitForSeconds(fadeWaitTime);
+            fader.FadeIn(fadeInTime);
         }
 
         public int GetNextLevelIndex()
