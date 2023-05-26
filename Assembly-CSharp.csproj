@@ -115,6 +115,7 @@
      <Folder Include="Assets/Models" />
      <Folder Include="Assets/Models/Drone_Costum/Material" />
      <Folder Include="Assets/Materials/Textures/refs" />
+     <Folder Include="Assets/Scenes/TverskayaStreetScene" />
      <Folder Include="Assets/Materials/Materials" />
      <Folder Include="Assets/Models/Transport/vityaz/vityaz_vagon.fbm" />
      <Folder Include="Assets/Models/Building" />
@@ -144,6 +145,7 @@
      <Folder Include="Assets/Models/Drone_Costum" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/Scripts/Movement" />
+     <Folder Include="Assets/Scenes/KremlevskStreetScene" />
      <Folder Include="Assets/Scripts/Control" />
      <Folder Include="Assets/Textures/UI" />
      <Folder Include="Assets/Materials/Textures" />
@@ -176,6 +178,7 @@
      <Folder Include="Assets/Textures/ConcreteWall001" />
      <Folder Include="Assets/Models/Transport/Electrobus_v2/proj" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <Folder Include="Assets/Models/Building/Kreml" />
      <Folder Include="Assets/Sounds" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Folder Include="Assets/Models/Transport/Electrobus_Charger_solo" />
