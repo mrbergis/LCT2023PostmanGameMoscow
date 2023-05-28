@@ -2715,3 +2715,126 @@ Received Import Request.
   path: Assets/Prefabs/UI/InfoButtonCanvasWorld.prefab
   artifactKey: Guid(c7c10d4adcce942ae83a68edcb73753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/UI/InfoButtonCanvasWorld.prefab using Guid(c7c10d4adcce942ae83a68edcb73753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1a962e9a30d43c81f06038345b7658') in 0.055599 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (134.6 KB). Loaded Objects now: 4314.
+Memory consumption went from 96.7 MB to 96.5 MB.
+Total: 6.723792 ms (FindLiveObjects: 0.704916 ms CreateObjectMapping: 0.045167 ms MarkObjects: 5.811791 ms  DeleteObjects: 0.161250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1073.599482 seconds.
+  path: Assets/Scenes/RoadStreetScene.unity
+  artifactKey: Guid(0b89250d039d04c5aac6830c309a286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RoadStreetScene.unity using Guid(0b89250d039d04c5aac6830c309a286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f3297275c8432ef22aa22389bfa24d') in 0.003848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.283014 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796afeb4e9879059562c54bf5c7067fa') in 0.181008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/Prefabs/Core/Core.prefab
+  artifactKey: Guid(dd554f6cde9714805adebc3c2c5f99d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Core/Core.prefab using Guid(dd554f6cde9714805adebc3c2c5f99d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d719a2ab26a9a3b4ca83d4dad45eb') in 0.817732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055876 seconds.
+  path: Assets/Prefabs/2DScene/PointMail.prefab
+  artifactKey: Guid(58143fa9b99e847ec86ca59a60fdcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/PointMail.prefab using Guid(58143fa9b99e847ec86ca59a60fdcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf915bbbe4bdb295cf74212df68f49b7') in 1.278452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.063608 seconds.
+  path: Assets/Scenes/KremlevskStreetScene.unity
+  artifactKey: Guid(07fe8739d8fbe4beca4c726b6b35e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KremlevskStreetScene.unity using Guid(07fe8739d8fbe4beca4c726b6b35e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e0507f6934b8e7cb852ffddbd915a') in 0.000823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.742904 seconds.
+  path: Assets/Scenes/RoadStreetScene.unity
+  artifactKey: Guid(0b89250d039d04c5aac6830c309a286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RoadStreetScene.unity using Guid(0b89250d039d04c5aac6830c309a286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5f5fb8018e53597d23bc008d6c9c69') in 0.000699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.144873 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(26496371022684e2ca2dd43575e82589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(26496371022684e2ca2dd43575e82589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e700a2dcd87e19782cf8b946eaa45709') in 0.772738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.598068 seconds.
+  path: Assets/Prefabs/2DScene/AccidentPoint.prefab
+  artifactKey: Guid(6410a4972f29c4d84baebbe2fb31d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/AccidentPoint.prefab using Guid(6410a4972f29c4d84baebbe2fb31d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39fa2e347a409e24178d4c2c9cdad30') in 0.134121 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (134.5 KB). Loaded Objects now: 4314.
+Memory consumption went from 98.0 MB to 97.9 MB.
+Total: 7.233250 ms (FindLiveObjects: 0.816666 ms CreateObjectMapping: 0.047167 ms MarkObjects: 6.211125 ms  DeleteObjects: 0.158084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1128.963640 seconds.
+  path: Assets/Textures/Icon
+  artifactKey: Guid(ae608d4aefdce4badabff492dafbfb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icon using Guid(ae608d4aefdce4badabff492dafbfb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7218adb058c4356dfbb18ddc89682ff') in 0.009418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.706803 seconds.
+  path: Assets/Textures/Icon/posmtanIcon16x16.png
+  artifactKey: Guid(0a8cc5fed55c24dea9d01592adfcfd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icon/posmtanIcon16x16.png using Guid(0a8cc5fed55c24dea9d01592adfcfd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2d1844085e469ec04afc646de11981') in 0.052451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.352239 seconds.
+  path: Assets/Textures/Icon/image1.png
+  artifactKey: Guid(1c05548f437d848f89ff14de01e6031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icon/image1.png using Guid(1c05548f437d848f89ff14de01e6031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69620903b0c4caa530e7eda97f3e5417') in 0.009349 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 47.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (132.9 KB). Loaded Objects now: 4315.
+Memory consumption went from 98.0 MB to 97.9 MB.
+Total: 7.036667 ms (FindLiveObjects: 0.836500 ms CreateObjectMapping: 0.046167 ms MarkObjects: 6.065708 ms  DeleteObjects: 0.087667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

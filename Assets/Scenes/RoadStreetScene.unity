@@ -4696,6 +4696,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 18666802222185189, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 17.098915
+      objectReference: {fileID: 0}
+    - target: {fileID: 18666802222185189, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 18666802222185189, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.17
+      objectReference: {fileID: 0}
     - target: {fileID: 651400614825966241, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: OnTransition.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Load2DLevelWin
@@ -4748,6 +4760,14 @@ PrefabInstance:
       propertyPath: dataScene
       value: 
       objectReference: {fileID: 11400000, guid: 3aa626fe9345b4b9caec93dd6e3bcb1f, type: 2}
+    - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.492283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.492283
+      objectReference: {fileID: 0}
     - target: {fileID: 7094321839496654488, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_RootOrder
       value: 2
