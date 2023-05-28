@@ -1947,3 +1947,621 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 301.409462 seconds.
+  path: Assets/Prefabs/UI/PlayerUI.prefab
+  artifactKey: Guid(a53762a39031f44cab8b43a9d672c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/PlayerUI.prefab using Guid(a53762a39031f44cab8b43a9d672c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58b32b6d9f38f3ee4410f4f06dd96e') in 0.234372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.190909 seconds.
+  path: Assets/Scenes/KremlevskStreetScene.unity
+  artifactKey: Guid(07fe8739d8fbe4beca4c726b6b35e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KremlevskStreetScene.unity using Guid(07fe8739d8fbe4beca4c726b6b35e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17be3a54f2b33234f296ebc2352de22') in 0.001462 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f0bf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (137.2 KB). Loaded Objects now: 4156.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 2.647625 ms (FindLiveObjects: 0.227459 ms CreateObjectMapping: 0.093958 ms MarkObjects: 2.196792 ms  DeleteObjects: 0.128500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001402 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f0bf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (133.1 KB). Loaded Objects now: 4171.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 2.517083 ms (FindLiveObjects: 0.195084 ms CreateObjectMapping: 0.052084 ms MarkObjects: 2.173709 ms  DeleteObjects: 0.095041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 507.176375 seconds.
+  path: Assets/Fonts/ST-Warmovie-noncommercial SDF.asset
+  artifactKey: Guid(bfc6ca303409e4421ac383f2cb0f709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ST-Warmovie-noncommercial SDF.asset using Guid(bfc6ca303409e4421ac383f2cb0f709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f219f79a7abe2d37f69806d20b8ee15') in 0.170444 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001333 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f0bf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (521ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (135.6 KB). Loaded Objects now: 4186.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 2.565625 ms (FindLiveObjects: 0.147583 ms CreateObjectMapping: 0.043084 ms MarkObjects: 2.285875 ms  DeleteObjects: 0.088250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001342 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f0bf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Developer/Unity/project/Moscow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (133.2 KB). Loaded Objects now: 4201.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 2.692292 ms (FindLiveObjects: 0.156833 ms CreateObjectMapping: 0.048083 ms MarkObjects: 2.361209 ms  DeleteObjects: 0.124542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 564.734008 seconds.
+  path: Assets/TextMesh Pro/Fonts/Tretyakov/Третьяковка.jpg
+  artifactKey: Guid(b52623bbd3cdafc489a0288f6537a1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Tretyakov/Третьяковка.jpg using Guid(b52623bbd3cdafc489a0288f6537a1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9533b5b9abcdedb46d6473f7427eb026') in 0.627246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011404 seconds.
+  path: Assets/TextMesh Pro/Fonts/Temple/Баня.jpg
+  artifactKey: Guid(79191e83366b0f24fa919a3e6f280e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Temple/Баня.jpg using Guid(79191e83366b0f24fa919a3e6f280e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ce3d8b84e102ea26ca9c4e67814a5') in 0.008686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032463 seconds.
+  path: Assets/Textures/Accident/accideientRoad.png
+  artifactKey: Guid(1b0a6f0bd56b045fcb03262741100af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Accident/accideientRoad.png using Guid(1b0a6f0bd56b045fcb03262741100af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8e4ea7075c8d83a68a778793b6cc32') in 0.277691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011526 seconds.
+  path: Assets/TextMesh Pro/Fonts/Luzjniki
+  artifactKey: Guid(332eeaf2a5ae443a4a3013751cb8e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Luzjniki using Guid(332eeaf2a5ae443a4a3013751cb8e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639c60d287f196e6fe1aca1bf2dbc896') in 0.000747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057948 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye/Зарядье.jpg
+  artifactKey: Guid(22420b5d5fb61fb4988bb40af080e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye/Зарядье.jpg using Guid(22420b5d5fb61fb4988bb40af080e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7462dc04283fd160158d3d70ff76c8b') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093122 seconds.
+  path: Assets/Textures/Marka/mraka10.jpg
+  artifactKey: Guid(b3469df61ae22a0499927aae1bea963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka10.jpg using Guid(b3469df61ae22a0499927aae1bea963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115e6938bbc59aceff27b828606595bd') in 0.010119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004337 seconds.
+  path: Assets/Materials/Materials/Postman.jpg 1.png
+  artifactKey: Guid(6ef568505ec3a79449b1e63e01629b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Postman.jpg 1.png using Guid(6ef568505ec3a79449b1e63e01629b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acb2e121db346872ff6a9392104c78b') in 0.019351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178371 seconds.
+  path: Assets/TextMesh Pro/Fonts/Почта.jpg
+  artifactKey: Guid(163393529d5eaf9489b70a791e741579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Почта.jpg using Guid(163393529d5eaf9489b70a791e741579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741ad18d020c51754dc08b352a8ace99') in 0.085967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058321 seconds.
+  path: Assets/Materials/Textures/Postman.jpg.png
+  artifactKey: Guid(6f32c12e3fb06ce4d8f4f96810f613d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Postman.jpg.png using Guid(6f32c12e3fb06ce4d8f4f96810f613d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cb6aca927f79c1a7615c8f06b8edc4') in 0.015791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/TextMesh Pro/Fonts/Tretyakov
+  artifactKey: Guid(e6bfcdfcb617b4be58669357c79e5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Tretyakov using Guid(e6bfcdfcb617b4be58669357c79e5b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422beb4605b62e838727dff278fd3447') in 0.000705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020723 seconds.
+  path: Assets/Scenes/2D.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2D.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af6a94390a9da29054e13f93da2263') in 0.001702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008028 seconds.
+  path: Assets/Prefabs/Core/Core.prefab
+  artifactKey: Guid(dd554f6cde9714805adebc3c2c5f99d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Core/Core.prefab using Guid(dd554f6cde9714805adebc3c2c5f99d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666574b6d1c30a43e855e1d71d66a0c8') in 0.821681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Skybox/Cubemaps
+  artifactKey: Guid(05ed5ae0357ba2b42acc61e9297be678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Cubemaps using Guid(05ed5ae0357ba2b42acc61e9297be678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f0009820cf6422e54a25bfb312b920') in 0.002428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024641 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU
+  artifactKey: Guid(70b99ebd476e14a5f8ef2c84f3b1cfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU using Guid(70b99ebd476e14a5f8ef2c84f3b1cfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86adab06293c4a0fdc81f70538bc60d') in 0.000671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034812 seconds.
+  path: Assets/Prefabs/2DScene/PointMail.prefab
+  artifactKey: Guid(58143fa9b99e847ec86ca59a60fdcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/PointMail.prefab using Guid(58143fa9b99e847ec86ca59a60fdcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c7ededb2e8983786d4f8bf4b11df9c') in 0.053143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.226687 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU/МГУ.jpg
+  artifactKey: Guid(e232af4e879dea848b048b2e473da055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU/МГУ.jpg using Guid(e232af4e879dea848b048b2e473da055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69829eca59280c8fd894649f6a2ea225') in 0.022913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049108 seconds.
+  path: Assets/Textures/Marka/mraka8.jpg
+  artifactKey: Guid(5978e19e153a4b945a917a49a9479c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka8.jpg using Guid(5978e19e153a4b945a917a49a9479c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48bcfe6ac82da7a1d82a637388493f5') in 0.013228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053394 seconds.
+  path: Assets/TextMesh Pro/Fonts/Tretyakov/1643000247_2-abrakadabra-fun-p-medved-v-lesu-risunok-3.jpg
+  artifactKey: Guid(ec35d52063863314aa85a6532b8ccb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Tretyakov/1643000247_2-abrakadabra-fun-p-medved-v-lesu-risunok-3.jpg using Guid(ec35d52063863314aa85a6532b8ccb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7b6846c1221f9c24f67cf93fa4787') in 0.250987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015234 seconds.
+  path: Assets/TextMesh Pro/Fonts/Theater
+  artifactKey: Guid(e8925616a9caf4dc69ab8fc6df14d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Theater using Guid(e8925616a9caf4dc69ab8fc6df14d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6119deb4e6d5a72e967295d8833c484') in 0.003216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060431 seconds.
+  path: Assets/Textures/Marka/mraka9.jpg
+  artifactKey: Guid(306c0dccdf3e53348a03b6b02eac6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka9.jpg using Guid(306c0dccdf3e53348a03b6b02eac6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30afed559302ec4e1000bb1af65a8faf') in 0.084985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036199 seconds.
+  path: Assets/TextMesh Pro/Fonts/Tretyakov/Рисунок1.png
+  artifactKey: Guid(8497883be53f67e419f131167b294a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Tretyakov/Рисунок1.png using Guid(8497883be53f67e419f131167b294a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25143c99b9db03d00e65b58ed8241511') in 0.138915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009574 seconds.
+  path: Assets/Textures/Marka/mraka7.jpg
+  artifactKey: Guid(cd7f7a4f6ed27d14d9100db8bf7ca3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka7.jpg using Guid(cd7f7a4f6ed27d14d9100db8bf7ca3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9d211764951dc6fe4c9cff5ca439bf') in 0.007897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025316 seconds.
+  path: Assets/Skybox
+  artifactKey: Guid(89fbc564849c644ce82f6c0e8d6044ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox using Guid(89fbc564849c644ce82f6c0e8d6044ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1757e5758224a181bcb2e57ee99f1a') in 0.002204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005950 seconds.
+  path: Assets/TextMesh Pro/Fonts/Temple/Temple.jpg
+  artifactKey: Guid(c459822b4252c034cb2908040dc053bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Temple/Temple.jpg using Guid(c459822b4252c034cb2908040dc053bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0629fc86c40937869fc7d628777a88cb') in 0.016324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030712 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU/Мед.jpg
+  artifactKey: Guid(d30635fd9e16f13478b5cd736ee22815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU/Мед.jpg using Guid(d30635fd9e16f13478b5cd736ee22815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450a7da1a0a5eaf1462ef42f6cb3778e') in 0.007408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064996 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye/Россия.jpg
+  artifactKey: Guid(65ad471f122d78c409894fcfb447fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye/Россия.jpg using Guid(65ad471f122d78c409894fcfb447fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f2a7d0f439effa4f87cbe960deaf25') in 0.009357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008322 seconds.
+  path: Assets/TextMesh Pro/Fonts/Tretyakov/image.png
+  artifactKey: Guid(61390c415c11b204b944e85eaf0a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Tretyakov/image.png using Guid(61390c415c11b204b944e85eaf0a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00958222833e9a513bd084f94565d6bd') in 0.044962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015009 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID/Голубь.jpg
+  artifactKey: Guid(56cb7ee790441004bb508737c43a9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID/Голубь.jpg using Guid(56cb7ee790441004bb508737c43a9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1dc6f274ecd8d1f62e1f637f84be7e') in 0.007492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079714 seconds.
+  path: Assets/Prefabs/2DScene/Player.prefab
+  artifactKey: Guid(5623627f7f8f24cbfa0357cda2a6a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/Player.prefab using Guid(5623627f7f8f24cbfa0357cda2a6a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18276ff050eb838c039684500a13faf4') in 0.012112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104788 seconds.
+  path: Assets/Scripts/Point/AccidentLogic.cs
+  artifactKey: Guid(17d3ecf6ef9a1496cbbad219ceb80771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Point/AccidentLogic.cs using Guid(17d3ecf6ef9a1496cbbad219ceb80771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32916a3b1b27e2d6f16d05e8427be951') in 0.002456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007419 seconds.
+  path: Assets/Skybox/Cubemaps/daytime.hdr
+  artifactKey: Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Cubemaps/daytime.hdr using Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723e839497d0f65ccf77cc3c36d003a') in 1.240264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024616 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(26496371022684e2ca2dd43575e82589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(26496371022684e2ca2dd43575e82589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a289cb2c4055ae02c90b703d5d771c') in 0.037370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055226 seconds.
+  path: Assets/Textures/Marka/mraka4.jpg
+  artifactKey: Guid(5c793852165bc3145998d4e2e64d92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka4.jpg using Guid(5c793852165bc3145998d4e2e64d92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c504f85e9c74eb63629a48811dfe6e0b') in 0.010019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093587 seconds.
+  path: Assets/Textures/Accident/accideientProbka.png
+  artifactKey: Guid(0030162c6db954d6cb11948329660765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Accident/accideientProbka.png using Guid(0030162c6db954d6cb11948329660765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1664479a4cd6f3296700e743036e280c') in 0.011327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017721 seconds.
+  path: Assets/Materials/Textures/Bus.jpg
+  artifactKey: Guid(1b1a3b833da539348ade0c96769effb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Bus.jpg using Guid(1b1a3b833da539348ade0c96769effb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa40ed26b5e89ec8823d8e1022c675b3') in 0.009823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007847 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU/Юр.jpg
+  artifactKey: Guid(e6655e76a0c8c5d4fbb5a5f9cd191ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU/Юр.jpg using Guid(e6655e76a0c8c5d4fbb5a5f9cd191ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728e4086859d640831bc6959361988d') in 0.009312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001792 seconds.
+  path: Assets/TextMesh Pro/Fonts/Temple/Цирк.jpg
+  artifactKey: Guid(fa9f9dcb85278214f9d6ed5f743bbdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Temple/Цирк.jpg using Guid(fa9f9dcb85278214f9d6ed5f743bbdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b19322210f6685fa7ec8dbc8dc407') in 0.006256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029154 seconds.
+  path: Assets/Prefabs/2DScene/Street3D.prefab
+  artifactKey: Guid(8036486ba3b6147119a5532ad0c8eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/Street3D.prefab using Guid(8036486ba3b6147119a5532ad0c8eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be514b04ddb0aca6ac3a745dbd2ab7e8') in 0.005673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025928 seconds.
+  path: Assets/Textures/Marka/mraka5.jpg
+  artifactKey: Guid(f75af1689a3f6344a9ce83f2473cc250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka5.jpg using Guid(f75af1689a3f6344a9ce83f2473cc250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81c186ac45fb0b92fcb0b319b58e24f') in 0.006940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011905 seconds.
+  path: Assets/Skybox/Cubemaps/sunset.hdr
+  artifactKey: Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Cubemaps/sunset.hdr using Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c18b8630f3bf2246496ad71b9a59e8') in 0.800747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/TextMesh Pro/Fonts/Luzjniki/Кольца.jpg
+  artifactKey: Guid(c38cd2afa04d8e14a83ca88791cb3124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Luzjniki/Кольца.jpg using Guid(c38cd2afa04d8e14a83ca88791cb3124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e10144192e33657168ab084da88ed14') in 0.012917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126433 seconds.
+  path: Assets/Scenes/KremlevskStreetScene/NavMesh.asset
+  artifactKey: Guid(f3c39195f78c64d5ca1960fe87a79087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KremlevskStreetScene/NavMesh.asset using Guid(f3c39195f78c64d5ca1960fe87a79087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dd9b9eb88c4180a4002646e98a2791') in 0.011162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002043 seconds.
+  path: Assets/TextMesh Pro/Fonts/Luzjniki/Лужники.jpg
+  artifactKey: Guid(6d847a2cc5769564eb17258955c9018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Luzjniki/Лужники.jpg using Guid(6d847a2cc5769564eb17258955c9018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ae4d58ac8552ad38fc35081071f772') in 0.028742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010139 seconds.
+  path: Assets/TextMesh Pro/Fonts/Theater/BigTheater.jpg
+  artifactKey: Guid(2d42dfd29f7f53945b906e3bcbd728bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Theater/BigTheater.jpg using Guid(2d42dfd29f7f53945b906e3bcbd728bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78d9acc0a76901ab564e215cbb7899') in 0.013442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058019 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID/Сапсан.jpg
+  artifactKey: Guid(62811eec674578d42975504f2f67e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID/Сапсан.jpg using Guid(62811eec674578d42975504f2f67e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acb75fbe58150bb5efc676e77309332') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008144 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID/МИД.jpg
+  artifactKey: Guid(0cd9c40aa8a8b7d45b59e3cbecb69983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID/МИД.jpg using Guid(0cd9c40aa8a8b7d45b59e3cbecb69983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b60e8ccf317cc4683bf1f0b163ecc4') in 0.066154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115076 seconds.
+  path: Assets/Textures/Marka/mraka6.jpg
+  artifactKey: Guid(fe617eb023b26184ba8e9568f7dc2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Marka/mraka6.jpg using Guid(fe617eb023b26184ba8e9568f7dc2add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9981cc4e4447aa3bfc833c0be22ab5e') in 0.006892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016576 seconds.
+  path: Assets/TextMesh Pro/Fonts/Temple
+  artifactKey: Guid(247b0dc09c97c4f43ae75aa2118b8cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Temple using Guid(247b0dc09c97c4f43ae75aa2118b8cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88ac6939546076107668db0b113624d') in 0.000674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036099 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID
+  artifactKey: Guid(0b674e1520aa14628a011b2172d6add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID using Guid(0b674e1520aa14628a011b2172d6add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3568179245d100a30745335c18cdd78c') in 0.000670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025956 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye/Ботанический сад.jpg
+  artifactKey: Guid(4048368d99fbb1747abf5661a794399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye/Ботанический сад.jpg using Guid(4048368d99fbb1747abf5661a794399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a173acf552b780720fdbc680f562ea5f') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003044 seconds.
+  path: Assets/Scripts/Point/PointMaillLogic.cs
+  artifactKey: Guid(048add52aea5b4cfd857cd6edac925ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Point/PointMaillLogic.cs using Guid(048add52aea5b4cfd857cd6edac925ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f62ec8cf7f0f6cb69b6026e3154c37') in 0.000786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006812 seconds.
+  path: Assets/TextMesh Pro/Fonts/Temple/Бассейн.jpg
+  artifactKey: Guid(62a8ddb5dd858dd42910ad8cd85ad090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Temple/Бассейн.jpg using Guid(62a8ddb5dd858dd42910ad8cd85ad090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbc5c73116f47a93929fedee80d0fed') in 0.007416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.136796 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU/Пед.jpg
+  artifactKey: Guid(a42f2f203d3814342b17c16bcecbdc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU/Пед.jpg using Guid(a42f2f203d3814342b17c16bcecbdc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb4b2b35bc12d63c2cd8aacfb398bf') in 0.010186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032257 seconds.
+  path: Assets/TextMesh Pro/Fonts/MGU/Фил.jpg
+  artifactKey: Guid(b5b79125433379a49bfae5f08e5346ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MGU/Фил.jpg using Guid(b5b79125433379a49bfae5f08e5346ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7a253dcb109aaaaae48dcfffb60253') in 0.008911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye/Олимпийский.jpg
+  artifactKey: Guid(10343b79cd4a6c944bc5ca4e61eed1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye/Олимпийский.jpg using Guid(10343b79cd4a6c944bc5ca4e61eed1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750385211d340884bfb6de4a8212d71b') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021579 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID/Ворон.jpg
+  artifactKey: Guid(19f89ef6675186247bd05c8956bffb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID/Ворон.jpg using Guid(19f89ef6675186247bd05c8956bffb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20dfaf9bd894d06ef7737c8a202ff55') in 0.008779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089023 seconds.
+  path: Assets/TextMesh Pro/Fonts/MID/Чайка.jpg
+  artifactKey: Guid(ae805cc8994d44740bdaea298a94b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/MID/Чайка.jpg using Guid(ae805cc8994d44740bdaea298a94b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade392472a20aef776ff3542b73f2b1d') in 0.007963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022746 seconds.
+  path: Assets/Prefabs/2DScene/AccidentPoint.prefab
+  artifactKey: Guid(6410a4972f29c4d84baebbe2fb31d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2DScene/AccidentPoint.prefab using Guid(6410a4972f29c4d84baebbe2fb31d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4587f9b5a47528b8e0f2901468f4af') in 0.029240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye
+  artifactKey: Guid(e1ddbda2af2ec4c71922a9ddfc7ac55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye using Guid(e1ddbda2af2ec4c71922a9ddfc7ac55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579d35e4b253b2d6e9fff27556fc325b') in 0.004532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Skybox/Materials
+  artifactKey: Guid(c24b7eb175a60b744b7defb86dbc1722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Materials using Guid(c24b7eb175a60b744b7defb86dbc1722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d578cbb699537cf5f34ba274ed2fb97') in 0.000623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008871 seconds.
+  path: Assets/TextMesh Pro/Fonts/Luzjniki/Волна.jpg
+  artifactKey: Guid(25875ab0854ee8e4ca217da7719ec174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Luzjniki/Волна.jpg using Guid(25875ab0854ee8e4ca217da7719ec174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27331f171fc2a6f43988af9b6125039d') in 0.010245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014488 seconds.
+  path: Assets/TextMesh Pro/Fonts/Zaryadye/Спортивная арена.jpg
+  artifactKey: Guid(e4b3751d8c4f4024a95ef4535e2520b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Zaryadye/Спортивная арена.jpg using Guid(e4b3751d8c4f4024a95ef4535e2520b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d51b939c8da46100cb8ce2cb6b88b') in 0.009949 seconds 

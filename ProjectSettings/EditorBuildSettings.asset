@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TverskayaStreetScene.unity
     guid: 409a8f9906dbf4bd0b9c4cd7bcf7110c
+  - enabled: 1
+    path: Assets/Scenes/MainMenu2.unity
+    guid: da73453a127f94018ac24591b5acea8b
   m_configObjects: {}
