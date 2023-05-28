@@ -3459,7 +3459,7 @@ MonoBehaviour:
   fadeOutTime: 1
   fadeInTime: 2
   fadeWaitTime: 0.5
-  level2DSceneBuildIndex: 0
+  level2DSceneBuildIndex: 1
   menuSceneBuildIndex: 0
   winSceneBuildIndex: 0
 --- !u!4 &378434639

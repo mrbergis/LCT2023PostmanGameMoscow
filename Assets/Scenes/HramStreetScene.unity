@@ -313,9 +313,13 @@ PrefabInstance:
       propertyPath: dataScene
       value: 
       objectReference: {fileID: 11400000, guid: 5a7ffabb22ec7462caf99534ac38023e, type: 2}
+    - target: {fileID: 5708381137814154847, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
+      propertyPath: level2DSceneBuildIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.8611317
+      value: -2.8611326
       objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -327,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.8611317
+      value: -2.8611326
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y

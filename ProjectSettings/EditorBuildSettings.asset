@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu2.unity
+    guid: da73453a127f94018ac24591b5acea8b
+  - enabled: 1
     path: Assets/Scenes/2D.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: fdb0dec2bf1860d428c159e1cff922bf
   - enabled: 1
     path: Assets/Scenes/Tuttorial3DScene.unity
     guid: 438958ddc2ed644708409342df67df62
@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TverskayaStreetScene.unity
     guid: 409a8f9906dbf4bd0b9c4cd7bcf7110c
   - enabled: 1
-    path: Assets/Scenes/MainMenu2.unity
-    guid: da73453a127f94018ac24591b5acea8b
+    path: Assets/Scenes/Menu.unity
+    guid: fdb0dec2bf1860d428c159e1cff922bf
   m_configObjects: {}

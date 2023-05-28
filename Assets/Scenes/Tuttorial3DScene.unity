@@ -1105,11 +1105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708381137814154847, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: level2DSceneBuildIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3032465
+      value: -1.3032455
       objectReference: {fileID: 0}
     - target: {fileID: 5708381138343244203, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1121,7 +1121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3032465
+      value: -1.3032455
       objectReference: {fileID: 0}
     - target: {fileID: 5708381139174510600, guid: dd554f6cde9714805adebc3c2c5f99d5, type: 3}
       propertyPath: m_LocalPosition.y
