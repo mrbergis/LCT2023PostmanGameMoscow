@@ -21,6 +21,7 @@ public class Waypoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.GetComponent<PathMovement>().StopMoving();
             canvas.SetActive(true);
             other.gameObject.transform.position = Vector3.zero;
         }

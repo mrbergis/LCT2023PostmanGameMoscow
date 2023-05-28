@@ -7,6 +7,8 @@ public class PointMaillLogic : MonoBehaviour
 {
     [SerializeField] private WayData wayData;
 
+    [SerializeField] private StreetData streetData;
+    
     [SerializeField] private GameObject way;
     [SerializeField] private GameObject marka;
     
@@ -16,6 +18,15 @@ public class PointMaillLogic : MonoBehaviour
         {
             way.gameObject.SetActive(true);
             marka.gameObject.SetActive(false);
+
+            if (streetData)
+            {
+                if (!streetData.streetActive)
+                {
+                    way.gameObject.SetActive(false);
+                    marka.gameObject.SetActive(true);
+                }
+            }
         }
         else
         {

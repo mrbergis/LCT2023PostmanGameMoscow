@@ -20,6 +20,7 @@ public class StreetLogic : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.GetComponent<PathMovement>().StopMoving();
             StartCoroutine(Transition());
             //SceneManager.LoadScene(streetData.streetName);
 
