@@ -1,23 +1,27 @@
 using UnityEngine;
 
-public class Move : MonoBehaviour
+namespace UI
 {
-    [SerializeField]
-    private float speed = 3.0f; 
-
-    private void Start()
+    public class Move : MonoBehaviour
     {
-        Time.timeScale = 1f;
-    }
+        [SerializeField]
+        private float speed = 3.0f; 
 
-    private void Update()
-    {
-        MoveRight();
-    }
+        private void Start()
+        {
+            Time.timeScale = 1f;
+        }
 
-    private void MoveRight()
-    {
-        Vector2 movement = new Vector2(speed * Time.deltaTime, 0f);
-        transform.Translate(movement);
+        private void Update()
+        {
+            MoveRight();
+        }
+
+        private void MoveRight()
+        {
+            Vector2 movement = new Vector2(speed * Time.deltaTime, 0f);
+            transform.Translate(movement);
+        }
     }
 }
+

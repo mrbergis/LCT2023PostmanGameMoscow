@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PointMaillLogic : MonoBehaviour
 {
@@ -11,7 +12,10 @@ public class PointMaillLogic : MonoBehaviour
     
     [SerializeField] private GameObject way;
     [SerializeField] private GameObject marka;
-    
+
+    public string sceneName;
+
+
     private void Start()
     {
         if (wayData.weaponActive)
@@ -38,5 +42,10 @@ public class PointMaillLogic : MonoBehaviour
     public void MarkaActive()
     {
         wayData.weaponActive = false;
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene(sceneName); // Загрузка указанной сцены
     }
 }
